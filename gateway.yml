@@ -3,10 +3,10 @@ server:
 
 user-service:
   id: user-service
-  hostname: localhost
+  hostname: user-service
   port: 8081
 
 product-service:
   id: product-service
-  hostname: localhost
+  hostname: product-service
   port: 8082
