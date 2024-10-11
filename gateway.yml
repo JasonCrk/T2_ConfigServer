@@ -1,0 +1,5 @@
+gateway:
+  service:
+    name: gateway
+    host: gateway
+    port: 8080

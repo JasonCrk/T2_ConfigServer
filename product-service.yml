@@ -1,2 +1,4 @@
-server:
+product-service:
+  id: product-service
+  hostname: product-service
   port: 8082
