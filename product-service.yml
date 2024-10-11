@@ -1,2 +1,11 @@
 server:
   port: 8082
+
+datasource:
+  url-connection: jdbc:h2:mem:product_service_db
+  username: sa
+  password: password
+  driver-class-name: org.h2.Driver
+
+jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
