@@ -1,4 +1,2 @@
-user-service:
-  id: user-service
-  hostname: product-service
+server:
   port: 8081

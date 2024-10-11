@@ -1,5 +1,12 @@
-gateway:
-  service:
-    name: gateway
-    host: gateway
-    port: 8080
+server:
+  port: 8080
+
+user-service:
+  id: user-service
+  hostname: localhost
+  port: 8081
+
+product-service:
+  id: product-service
+  hostname: localhost
+  port: 8082
